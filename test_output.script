@@ -1,0 +1,120 @@
+Script started on 2025-03-31 11:18:06-04:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="80" LINES="41"]
+[?2004hmwatt29@compute:~/courses/cs2211/Asn/asn5$ make clean
+[?2004lrm -f mymatrix main.o datatype.o bstree.o matrix.o
+[?2004hmwatt29@compute:~/courses/cs2211/Asn/asn5$ make
+[?2004lgcc -Wall -std=c11 -g   -c main.c
+gcc -Wall -std=c11 -g   -c datatype.c
+gcc -Wall -std=c11 -g   -c bstree.c
+gcc -Wall -std=c11 -g   -c matrix.c
+gcc -Wall -std=c11 -g   -o mymatrix main.o datatype.o bstree.o matrix.o
+[?2004hmwatt29@compute:~/courses/cs2211/Asn/asn5$ ./mymatrix < test1.txt
+[?2004lString 1   String 2   Occurrence
+aab        aab                1
+aab        abb                1
+bba        aa                 2
+bba        aaa                1
+[?2004hmwatt29@compute:~/courses/cs2211/Asn/asn5$ ./mymatrix < test2.txt
+[?2004lString 1   String 2   Occurrence
+[?2004hmwatt29@compute:~/courses/cs2211/Asn/asn5$ ./mymatrix < test3.txt
+[?2004lString 1   String 2   Occurrence
+test       test               3
+[?2004hmwatt29@compute:~/courses/cs2211/Asn/asn5$ ./mymatrix <te[K[K test4.txt
+[?2004lString 1   String 2   Occurrence
+APPLE      ORANGE             1
+Apple      orange             1
+apple      Orange             1
+[?2004hmwatt29@compute:~/courses/cs2211/Asn/asn5$ ./mymatrix < tet[Kst5.txt
+[?2004lString 1   String 2   Occurrence
+123        456                1
+hello!     world?             1
+[?2004hmwatt29@compute:~/courses/cs2211/Asn/asn5$ ./mymatrix < infile.txt
+[?2004lString 1   String 2   Occurrence
+AA         AC                 2
+AA         AT                 1
+AA         TTAC               2
+AAAACACA   CGTCCAAC           1
+AATAC      CAG                1
+AC         GGTT               1
+AC         TCAC               2
+AC         TT                 1
+ACAGC      CCT                1
+ACAGGTTC   GCGA               4
+ACGGC      GCC                5
+AG         TAAC               1
+AGGAGGTC   TTATCAGA           1
+AGGCA      TTC                1
+AGTAC      GGT                1
+AGTAG      AAG                1
+AT         AACT               2
+AT         CTTC               1
+ATAAA      GGA                2
+ATCAA      ACG                1
+ATCATCAG   CACATCTA           4
+ATGGC      ACT                1
+ATGTG      TTC                1
+CA         CT                 1
+CA         GCCG               1
+CA         TGCT               2
+CCATA      GTT                5
+CCCTGGTT   TCAACGAG           1
+CG         AT                 2
+CG         GCTG               2
+CGCAA      GGT                2
+CGTAG      TGG                1
+CGTGCTCG   TACGTGGC           1
+CT         CT                 4
+CT         GCTT               1
+CT         GT                 2
+CT         TT                 2
+CTCGA      ACT                1
+GA         AC                 2
+GA         CACG               1
+GA         TC                 2
+GAACG      GTA                2
+GAACT      CGA                1
+GACCGAAA   GGTAAGAT           4
+GATCT      AAA                5
+GC         AGTA               2
+GCACC      TCA                1
+GCCTC      AAC                1
+GCTGG      TGG                2
+GGAGAGCC   TTGT               4
+GGCACGTC   AACA               4
+GGCGT      TTT                1
+GGTTG      AGC                1
+GGTTTTGT   CCGGGTGT           4
+GT         AA                 1
+GT         GG                 1
+GT         GTTG               1
+GTCAT      TTG                5
+GTGGG      CGA                1
+TA         ATTA               2
+TA         GTGC               2
+TC         GTCC               1
+TC         GTCT               1
+TCAGTTTG   CCTGTTTT           1
+TCCCT      CAT                1
+TCTTA      AAG                1
+TCTTC      TTC                2
+TG         ACAG               2
+TG         CAGG               1
+TG         TA                 2
+TG         TCGT               2
+TG         TT                 2
+TGAGA      CAC                1
+TGGCT      TAC                2
+TGGTA      GCA                1
+TGGTC      ATG                1
+TGTCC      TTG                1
+TGTGG      CTT                1
+TT         AT                 1
+TT         GA                 1
+TT         GG                 1
+TT         TA                 2
+TTCGG      ATG                1
+TTGAA      AAA                1
+TTTGGAGA   CTCCGTGG           1
+[?2004hmwatt29@compute:~/courses/cs2211/Asn/asn5$ exit
+[?2004lexit
+
+Script done on 2025-03-31 11:18:59-04:00 [COMMAND_EXIT_CODE="0"]
